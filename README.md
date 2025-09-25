@@ -44,15 +44,15 @@
    cd maintainx-assessment
 2. **Set up environment variables.** 
 Copy .env.example → .env and fill in values:
-```bash
-MAINTAINX_TOKEN=your_maintainx_api_token
-COUPA_CLIENT_ID=your_coupa_client_id
-COUPA_CLIENT_SECRET=your_coupa_client_secret
+   ```bash
+   MAINTAINX_TOKEN=your_maintainx_api_token
+   COUPA_CLIENT_ID=your_coupa_client_id
+   COUPA_CLIENT_SECRET=your_coupa_client_secret
 3. **Install dependencies.** 
-```bash
-npm install
+   ```bash
+   npm install
 4. **Run the server (for webhook handling).** 
-```bash
+   ```bash
    npm start
 5. **Test flows with Postman.** 
 Import /postman/maintainx_coupa_collection.json and run sample requests.
