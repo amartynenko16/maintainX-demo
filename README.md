@@ -44,9 +44,9 @@
    cd maintainx-assessment
 2. **Set up environment variables.** 
 Copy .env.example → .env and fill in values:
-   MAINTAINX_TOKEN=your_maintainx_api_token
-   COUPA_CLIENT_ID=your_coupa_client_id
-   COUPA_CLIENT_SECRET=your_coupa_client_secret
+MAINTAINX_TOKEN=your_maintainx_api_token
+COUPA_CLIENT_ID=your_coupa_client_id
+COUPA_CLIENT_SECRET=your_coupa_client_secret
 3. **Install dependencies.** 
    npm install
 4. **Run the server (for webhook handling).** 
